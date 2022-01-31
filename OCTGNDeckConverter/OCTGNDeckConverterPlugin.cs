@@ -12,10 +12,10 @@ using Octgn.Core.Plugin;
 
 namespace OCTGNDeckConverter
 {
-    /// <summary>
-    /// Implements IDeckBuilderPlugin so it can be used as a Plugin for OCTGN.
-    /// </summary>
-    public class OCTGNDeckConverterPlugin : IDeckBuilderPlugin
+	/// <summary>
+	/// Implements IDeckBuilderPlugin so it can be used as a Plugin for OCTGN.
+	/// </summary>
+	public class OCTGNDeckConverterPlugin : IDeckBuilderPlugin
     {
         /// <summary>
         /// The logger instance for this class.

@@ -25,7 +25,9 @@ namespace OCTGNDeckConverter
         /// </summary>
         public MainWindow()
         {
-            this.InitializeComponent();
+            this.LoadViewFromUri("/OCTGNDeckConverter;component/mainwindow.xaml");
+
+            //this.InitializeComponent();
 
             this.DataContextChanged += new DependencyPropertyChangedEventHandler(this.MainWindow_DataContextChanged);
         }

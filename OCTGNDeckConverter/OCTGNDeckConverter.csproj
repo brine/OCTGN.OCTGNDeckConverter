@@ -241,12 +241,13 @@
     <Compile Include="View\WizardPage_SelectFile.xaml.cs">
       <DependentUpon>WizardPage_SelectFile.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Compile Include="WindowExtension.cs" />
+    <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="mainwindow.xaml.cs">
+      <DependentUpon>mainwindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\InlineDialogPage_ChooseAnotherCardView.xaml">
