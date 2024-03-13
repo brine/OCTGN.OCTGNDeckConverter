@@ -31,7 +31,7 @@
 ;--------------------------------
 
 ; The name of the installer
-Name "OCTGN Deck Converter v3.9.0"
+Name "OCTGN Deck Converter v3.10.0"
 
 ; The file to write
 OutFile "OCTGNDeckConverterInstaller.exe"

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30104.148
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTGNDeckConverter", "OCTGNDeckConverter\OCTGNDeckConverter.csproj", "{0D71918F-43BA-4B4A-B491-ADD7A372467A}"
 EndProject
@@ -10,7 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "installer", "installer", "{80DE5201-0CD7-4868-8B75-6DF6333B95B6}"
 	ProjectSection(SolutionItems) = preProject
 		installer\InstallScript.nsi = installer\InstallScript.nsi
-		installer\OCTGNDeckConverterInstaller v3.8.0.exe = installer\OCTGNDeckConverterInstaller v3.8.0.exe
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCTGNDeckConverterTest", "OCTGNDeckConverterTest\OCTGNDeckConverterTest.csproj", "{C6236295-3ADD-4D94-82E2-AF034001D407}"
